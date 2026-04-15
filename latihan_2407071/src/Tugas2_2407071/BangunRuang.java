@@ -8,15 +8,17 @@ public class BangunRuang extends BangunDatar {
         this.tinggi = tinggi;
     }
 
-    public double getTinggi() {
-        return tinggi;
-    }
-
-    public void setTinggi(double tinggi) {
-        this.tinggi = tinggi;
+    @Override
+    public double hitungLuas() {
+        System.out.println("HitungLuas");
+        return super.hitungLuas();
     }
 
     public double hitungVolume() {
-        return hitungLuas() * tinggi;
+        return hitungLuas() * tinggi; 
+    }
+
+    public double hitungVolume2() {
+        return super.hitungLuas() * tinggi;
     }
 }

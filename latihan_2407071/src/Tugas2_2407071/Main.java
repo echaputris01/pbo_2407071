@@ -10,5 +10,6 @@ public class Main {
 
         System.out.println("Luas alas: " + balok.hitungLuas());
         System.out.println("Volume: " + balok.hitungVolume());
+        System.out.println("Volume (parent): " + balok.hitungVolume2());
     }
 }
